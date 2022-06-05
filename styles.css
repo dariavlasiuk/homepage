@@ -95,6 +95,15 @@ body {
       justify-content: center;
   }
 
+  .contact-width {
+      width: 250px;
+  }
+
+  .contact-info__block--right {
+      display: flex;
+      justify-content: flex-end;
+  }
+
   .contact-info__item {
       color: var(--secondary-text-color);
       text-decoration: none;
@@ -260,4 +269,44 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.state__header {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-text-color);
+}
+
+.bottom-info {
+    display: flex;
+    align-items: center;
+}
+
+.kitty-info {
+    margin: 40px;
+    font-size: 24px;
+}
+
+.kitty {
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 576px) {
+    .contact-width {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .bottom-info {
+        flex-direction: column;
+    }
+    
+    .kitty-info {
+        margin: 40px 0 0 0;
+    }
+    
+    .kitty {
+        margin-top: 30px;
+    }
 }
