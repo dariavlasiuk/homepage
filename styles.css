@@ -49,7 +49,6 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-
   .main-info,
   .contact_info_container {
     flex-direction: column;
@@ -301,11 +300,11 @@ body {
   .bottom-info {
     flex-direction: column;
   }
-  
+
   .kitty-info {
-    margin: 40px 0 0 0;
+    margin: 40px 0 0;
   }
-  
+
   .kitty {
     margin-top: 30px;
   }
